@@ -41,7 +41,9 @@ The dashboard consists of several key sections that provide seamless data visual
 - **Stock Management Table** – A structured table to track product inventory, including stock levels, reorder alerts, and supplier details.
 - **Sales Performance Panel** – Provides insights into sales volume, best-selling products, and revenue comparisons.
 - **Dynamic Filtering Panel** – Allows users to apply filters by product category, date, or custom criteria for more precise analysis.
+![](Product_Manager_Dashboard.png)
 - **Automated Calculation Section** – Summarizes key figures such as total sales, profit margins, and stock turnover rate.
+![](Product_Manager_Calculation.png)
 
 ### 📊 Graphs, Tables, and Visuals Used
 

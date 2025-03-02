@@ -24,7 +24,8 @@ The dashboard consists of several key sections that provide seamless data visual
 
 
 - ### Dashboard
-    ![](images\Product_Manager_Dashboard.png)
+    ![Product_Manager_Dashboard](https://github.com/user-attachments/assets/7552533b-2656-4208-bbc6-ee27b4491c96)
+
     - **Main Dashboard**  
     A high-level overview displaying key metrics such as total stock, sales trends, and revenue.
     - **Stock Management Table**  
@@ -36,7 +37,8 @@ The dashboard consists of several key sections that provide seamless data visual
 
 
 - ### Report
-    ![](images\Product_Manager_Report.png)
+    ![Product_Manager_Report](https://github.com/user-attachments/assets/fccf0cd0-1c99-44c8-9ffe-845d657fd2f6)
+
     - **Working logic**  
     The day range of the current week is automatically calculated on the report page. And that week's purchases, production, domestic and foreign sales are brought together with their important titles.  
       
@@ -46,7 +48,8 @@ The dashboard consists of several key sections that provide seamless data visual
 
 
 - ### Sales
-    ![](images\Product_Manager_Sales.png)
+    ![Product_Manager_Sales](https://github.com/user-attachments/assets/f95ab0a2-0e35-4c91-bb50-4f229fb5413a)
+
     
     - **Working logic**  
     The **Sales** page is designed to systematically record and track all sales transactions. It provides an organized structure to capture essential sales details, such as the date, customer, material name, quantity, unit, price, and total amount. The logic behind this page ensures that sales data is efficiently recorded, analyzed, and used for reporting.  
@@ -63,20 +66,22 @@ The dashboard consists of several key sections that provide seamless data visual
     One of the best parts is that as soon as you select the material you want to sell, the unit and unit price of that material are automatically displayed. I know it's a very simple automation, but I had no idea it would make life this easy.
 
 - ### Production
-    ![](images\Product_Manager_Production.png)
+    ![Product_Manager_Production](https://github.com/user-attachments/assets/6f732d8d-764e-4f85-98b7-43869d9ddad3)
+
     
     - **Working logic**  
     You can enter data by selecting the products specified for production on the dropdown data page.
 
 - ### Purchases
-    ![](images\Product_Manager_Purchases.png)
+    ![Product_Manager_Purchases](https://github.com/user-attachments/assets/e4bcc3e1-c724-4eac-9848-0c9128672d48)
+
     
     - **Working logic**  
     Similarly, data entry can be provided by selecting company names and material names from the list. Also, you do not have to select the company name from the list, you can write it there manually.
 
 - ### Dropdown Data
-    ![](images\Product_Manager_DropdownData.png)
-    
+    ![Product_Manager_DropdownData](https://github.com/user-attachments/assets/ed1801c5-7559-454e-bab9-b9fbb837da9f)
+
     - **Working logic**  
     Almost all dropdown lists pull their data from the tables on this page. You can change many data information such as material name, unit, unit price and starting stock.  
 
@@ -84,7 +89,8 @@ The dashboard consists of several key sections that provide seamless data visual
     At the same time, many data sets that we pull to the dashboard page are also automatically collected on this page.
 
 - ### Calculations
-    ![](images\Product_Manager_Calculation.png)
+    ![Product_Manager_Calculation](https://github.com/user-attachments/assets/11e9ce28-3052-4a7d-bc08-d9d700dcace9)
+
 
     - **Working Logic**  
     This is also a page that we keep. It is a page where the formulas of the variable values ​​on the left side of the dashboard page are kept. There are also some filtered pivot tables of sales values.

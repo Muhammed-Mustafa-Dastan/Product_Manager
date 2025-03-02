@@ -49,7 +49,9 @@ The dashboard consists of several key sections that provide seamless data visual
     ![](Product_Manager_Sales.png)
     
     - **Working logic**  
-    The **Sales** page is designed to systematically record and track all sales transactions. It provides an organized structure to capture essential sales details, such as the date, customer, material name, quantity, unit, price, and total amount. The logic behind this page ensures that sales data is efficiently recorded, analyzed, and used for reporting.
+    The **Sales** page is designed to systematically record and track all sales transactions. It provides an organized structure to capture essential sales details, such as the date, customer, material name, quantity, unit, price, and total amount. The logic behind this page ensures that sales data is efficiently recorded, analyzed, and used for reporting.  
+    
+        When we start using it under normal conditions, we hide the columns after the checkboxes.
     
     - **Automated Weekly and Monthly Tracking**  
     Each sale entry is automatically assigned a Week Number and Month based on the sale date. This allows for seamless weekly and monthly reporting in the dashboard and report sections.
@@ -81,50 +83,23 @@ The dashboard consists of several key sections that provide seamless data visual
     - **Best Part**  
     At the same time, many data sets that we pull to the dashboard page are also automatically collected on this page.
 
+- ### Calculations
+    ![](Product_Manager_Calculation.png)
 
-### 📊 Graphs, Tables, and Visuals Used
-
-To enhance data representation and ensure quick decision-making, the dashboard includes:
-
-- **Bar Charts** – Display sales trends and product performance over time.
-- **Pie Charts** – Provide a breakdown of stock distribution across different categories.
-- **Line Charts** – Track revenue growth and fluctuations over selected time periods.
-- **Conditional Formatting** – Highlights critical values such as low stock alerts or top-performing products.
-- **Pivot Tables** – Allow dynamic reporting and data aggregation for customized insights.
-
-### 🛠 User-Friendly Design & Enhancements
-
-The dashboard is designed with usability in mind to ensure a smooth experience for all users:
-
-- **Minimalist Layout** – A clean and organized structure that avoids clutter and enhances readability.
-- **Automated Updates** – Reduces manual work by refreshing data automatically when changes occur.
-- **Color-Coded Indicators** – Uses intuitive color schemes to differentiate between stock levels, sales performance, and alerts.
-- **Easy Navigation** – Logical arrangement of sections to improve workflow and access to critical insights.
-- **Dropdown Selections** – Users can select specific products, time ranges, or categories for a personalized view of data.
-
-This user-friendly design ensures that both beginners and advanced users can efficiently track products, manage stock, and analyze sales data with ease.
-
-# Usage Guide
+    - **Working Logic**  
+    This is also a page that we keep. It is a page where the formulas of the variable values ​​on the left side of the dashboard page are kept. There are also some filtered pivot tables of sales values.
 
 # What I Learned
 
-Throughout this adventure, I've turbocharged my SQL toolkit with some serious firepower:
+I have significantly strengthened my Excel experience throughout this adventure:
 
-- **🧩 Complex Query Crafting:** Mastered the art of advanced SQL, merging tables like a pro and wielding WITH clauses for ninja-level temp table maneuvers.
-- **📊 Data Aggregation:** Got cozy with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data-summarizing sidekicks.
-- **💡 Analytical Wizardry:** Leveled up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
-
-# Conclusions
-
-### Insights
-From the analysis, several general insights emerged:
-
-1. **Top-Paying Data Analyst Jobs**: The highest-paying jobs for data analysts that allow remote work offer a wide range of salaries, the highest at $650,000!
-2. **Skills for Top-Paying Jobs**: High-paying data analyst jobs require advanced proficiency in SQL, suggesting it’s a critical skill for earning a top salary.
-3. **Most In-Demand Skills**: SQL is also the most demanded skill in the data analyst job market, thus making it essential for job seekers.
-4. **Skills with Higher Salaries**: Specialized skills, such as SVN and Solidity, are associated with the highest average salaries, indicating a premium on niche expertise.
-5. **Optimal Skills for Job Market Value**: SQL leads in demand and offers for a high average salary, positioning it as one of the most optimal skills for data analysts to learn to maximize their market value.
-
-### Closing Thoughts
-
-This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
+- **📊 Advanced Formula Mastery:**  
+Leveraged powerful formulas like IF, SUMIFS, INDEX-MATCH, COUNTIFS, DATE, EOMONTH, VSATCK, FILTER, XLOOKUP, UNIQUE and TEXT functions to automate calculations and dynamically retrieve data based on specific conditions.
+- **🔄 Pivot Table Proficiency:**  
+Transformed raw datasets into insightful reports using Pivot Tables, efficiently summarizing sales, purchases, and production data with calculated fields and dynamic filters.
+- **🎨 Conditional Formatting Expertise:**  
+Applied rule-based color coding to highlight important trends, flag unusual values, and visually distinguish critical sales transactions and overdue invoices.
+- **🔍 Smart Filtering & Sorting:**  
+Utilized AutoFilters, Custom Sorting, and Advanced Filters to extract meaningful insights from large datasets and streamline data analysis.
+- **📑 Automated Reporting & Dashboarding:**  
+Created dynamic reports and interactive dashboards, integrating formulas, charts, and conditional formatting to provide real-time business insights.

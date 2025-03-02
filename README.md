@@ -14,21 +14,6 @@ This Excel Product Manager Dashboard offers several advantages for businesses an
 
 This dashboard serves as a powerful tool for business owners, product managers, and analysts looking to streamline their inventory and sales processes.
 
-# Features and User Interface
-
-This Excel Product Manager Dashboard is designed to streamline inventory and sales tracking with powerful features:
-
-- **Stock Tracking** – Monitor product stock levels in real time to prevent shortages or overstocking.
-- **Sales Analysis** – Gain insights into sales trends, revenue, and product performance over time.
-- **Dynamic Charts & Reports** – Visualize data through automatically updating graphs and tables for quick decision-making.
-- **Advanced Filtering** – Apply dynamic filters to analyze data based on categories, time periods, or product types.
-- **Automated Calculations** – Eliminate manual data entry with pre-built formulas that update automatically.
-- **Order & Delivery Management** – Track orders, delivery dates, and pending shipments efficiently.
-- **Customizable Reports** – Generate tailored reports for business insights and performance reviews.
-- **User-Friendly Interface** – A well-organized and easy-to-navigate dashboard suitable for all skill levels.
-
-This dashboard is a powerful tool for business owners, product managers, and analysts aiming to optimize their inventory and sales operations.
-
 # 🎨 User Interface & User Experience (UI/UX)
 
 This Excel Product Manager Dashboard is designed with a clean and intuitive user interface to enhance usability and efficiency.
@@ -37,13 +22,65 @@ This Excel Product Manager Dashboard is designed with a clean and intuitive user
 
 The dashboard consists of several key sections that provide seamless data visualization and management:
 
-- **Main Dashboard** – A high-level overview displaying key metrics such as total stock, sales trends, and revenue.
-- **Stock Management Table** – A structured table to track product inventory, including stock levels, reorder alerts, and supplier details.
-- **Sales Performance Panel** – Provides insights into sales volume, best-selling products, and revenue comparisons.
-- **Dynamic Filtering Panel** – Allows users to apply filters by product category, date, or custom criteria for more precise analysis.
-![](Product_Manager_Dashboard.png)
-- **Automated Calculation Section** – Summarizes key figures such as total sales, profit margins, and stock turnover rate.
-![](Product_Manager_Calculation.png)
+
+- ### Dashboard
+    ![](Product_Manager_Dashboard.png)
+    - **Main Dashboard**  
+    A high-level overview displaying key metrics such as total stock, sales trends, and revenue.
+    - **Stock Management Table**  
+    A structured table to track product inventory, including stock levels, reorder alerts, and supplier details.
+    - **Sales Performance Panel**  
+    Provides insights into sales volume, best-selling products, and revenue comparisons. (*Moreover, the graphs of external sales and internal sales can be given separately. Because the sales_type is automatically written in a hidden column on the sales page according to the company name selected in that row, and the graphs can be separated by filtering according to type.*)
+    - **Dynamic Filtering Panel**  
+    Allows users to apply filters by product category, date, or custom criteria for more precise analysis.
+
+
+- ### Report
+    ![](Product_Manager_Report.png)
+    - **Working logic**  
+    The day range of the current week is automatically calculated on the report page. And that week's purchases, production, domestic and foreign sales are brought together with their important titles.  
+      
+        If there is no data entry for that week, it gives a #CALC! error. Of course, if there is a warning message that you want to print simply from the formula in the cell, you can print it.
+    - **Best Part**  
+    The best part about this page is that you don't even have to touch it in any way. It can automatically give you a weekly report.
+
+
+- ### Sales
+    ![](Product_Manager_Sales.png)
+    
+    - **Working logic**  
+    The **Sales** page is designed to systematically record and track all sales transactions. It provides an organized structure to capture essential sales details, such as the date, customer, material name, quantity, unit, price, and total amount. The logic behind this page ensures that sales data is efficiently recorded, analyzed, and used for reporting.
+    
+    - **Automated Weekly and Monthly Tracking**  
+    Each sale entry is automatically assigned a Week Number and Month based on the sale date. This allows for seamless weekly and monthly reporting in the dashboard and report sections.
+
+    - **Highlighted Lines**  
+    There are two different checkboxes on this page. One is to mark it as sold out and the other is to mark it as invoiced.
+
+    - **Best Part**  
+    One of the best parts is that as soon as you select the material you want to sell, the unit and unit price of that material are automatically displayed. I know it's a very simple automation, but I had no idea it would make life this easy.
+
+- ### Production
+    ![](Product_Manager_Production.png)
+    
+    - **Working logic**  
+    You can enter data by selecting the products specified for production on the dropdown data page.
+
+- ### Purchases
+    ![](Product_Manager_Purchases.png)
+    
+    - **Working logic**  
+    Similarly, data entry can be provided by selecting company names and material names from the list. Also, you do not have to select the company name from the list, you can write it there manually.
+
+- ### Dropdown Data
+    ![](Product_Manager_DropdownData.png)
+    
+    - **Working logic**  
+    Almost all dropdown lists pull their data from the tables on this page. You can change many data information such as material name, unit, unit price and starting stock.  
+
+    - **Best Part**  
+    At the same time, many data sets that we pull to the dashboard page are also automatically collected on this page.
+
 
 ### 📊 Graphs, Tables, and Visuals Used
 
